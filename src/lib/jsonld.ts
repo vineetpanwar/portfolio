@@ -11,6 +11,7 @@ export function personJsonLd() {
     name: site.name,
     jobTitle: site.role,
     description: site.summary,
+    image: `${site.url}${site.photo}`,
     email: `mailto:${site.email}`,
     url: site.url,
     address: {

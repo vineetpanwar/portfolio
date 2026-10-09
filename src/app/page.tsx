@@ -7,6 +7,7 @@ import { CaseStudies } from "@/components/CaseStudies";
 import { Timeline } from "@/components/Timeline";
 import { Skills } from "@/components/Skills";
 import { Judgment } from "@/components/Judgment";
+import { Testimonials } from "@/components/Testimonials";
 import { AIWorkflow } from "@/components/AIWorkflow";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
@@ -25,6 +26,7 @@ export default function Home() {
         <Timeline />
         <Skills />
         <Judgment />
+        <Testimonials />
         <Contact />
       </main>
       <Footer />

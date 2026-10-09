@@ -1,14 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { site } from "@/content/site";
+import { site, hireMailto } from "@/content/site";
+import { MailIcon } from "@/components/ui/icons";
 
 const links = [
   { href: "#work", label: "Work" },
   { href: "#experience", label: "Experience" },
   { href: "#skills", label: "Skills" },
+  { href: "#testimonials", label: "Testimonials" },
   { href: "#judgment", label: "How I think" },
-  { href: "#contact", label: "Contact" },
 ];
 
 export function Nav() {
@@ -46,12 +47,11 @@ export function Nav() {
           ))}
         </div>
         <a
-          href={site.links.calendly}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="rounded-full border border-accent/40 bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent transition-colors hover:bg-accent/20"
+          href={hireMailto}
+          className="group inline-flex items-center gap-1.5 rounded-full bg-accent px-4 py-1.5 text-sm font-semibold text-ink-950 transition-transform hover:-translate-y-0.5 accent-ring"
         >
-          Book a call
+          <MailIcon className="h-3.5 w-3.5" />
+          Hire me
         </a>
       </nav>
     </header>

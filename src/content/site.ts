@@ -14,6 +14,8 @@ export const site = {
     calendly: "https://calendly.com/vineetpanwar027/30min",
     heyfurnish: "https://heyfurnish.com",
   },
+  // Headshot in /public
+  photo: "/profile.jpeg",
   // Short, plain-English summary — also fed to llms.txt and JSON-LD.
   summary:
     "Senior Full-Stack Engineer with 8+ years across Banking, FinTech, AI platforms, and Sports Tech. " +
@@ -24,3 +26,21 @@ export const site = {
 } as const;
 
 export type Site = typeof site;
+
+// Prefilled "Hire me" email — opens the visitor's mail client addressed to Vineet.
+export const hireMailto = (() => {
+  const subject = "Let's talk — opportunity for Vineet Panwar";
+  const body = [
+    "Hi Vineet,",
+    "",
+    "I came across your portfolio and I'd like to talk to you about a role.",
+    "",
+    "Company:",
+    "Role / title:",
+    "What the team is building:",
+    "Comp range (optional):",
+    "",
+    "Best,",
+  ].join("\n");
+  return `mailto:${site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+})();
