@@ -1,0 +1,51 @@
+# Vineet Panwar
+
+> Senior Full-Stack + AI Engineer. 8+ years across Banking, FinTech, AI platforms, and Sports Tech. Builds scalable distributed backends, data-driven UIs, and multi-agent AI systems. Shipped services at 200M+ requests/day (PayPal) and multi-agent AI support auto-resolving 60% of tickets (Next Level Sports).
+
+- Location: New York, NY, USA
+- Role sought: Senior / Staff Full-Stack Engineer, AI-forward / Forward-Deployed Engineer
+- Email: vineetpanwar027@gmail.com
+- GitHub: https://github.com/vineetpanwar
+- LinkedIn: https://www.linkedin.com/in/vineet-panwar-b5ba19110
+- Calendly: https://calendly.com/vineetpanwar027/30min
+- Startup (co-founder): https://heyfurnish.com
+
+## Headline metrics
+- 200M+ requests/day served at 99.99% uptime (PayPal)
+- 60% of support tickets auto-resolved by a multi-agent AI platform (Next Level Sports)
+- ~$1M/year saved by an in-house payroll platform; ~$150K/year saved by an in-house PCI checkout
+- 55,000+ users on a cross-platform sports app; 99% cache-hit ratio; 99.9999% availability on a 4-tier cache
+
+## Core skills
+- AI Engineering: LLM APIs (Anthropic, OpenAI), multi-agent systems (Mastra), evaluation harnesses & LLM-as-judge, RAG, safety gates/guardrails, prompt/context engineering, Claude Code, Cursor
+- Languages: TypeScript/JavaScript, Java, SQL, Python, Kotlin
+- Backend: Node.js, Spring Boot, Express, tRPC, REST, GraphQL, WebSockets, Apache Kafka, Stripe, microservices, event-driven architecture
+- Frontend: React 18, Next.js (App Router, SSR/ISR/SSG), React Native (Expo), TanStack Query, Zustand, Tailwind CSS, Core Web Vitals, WCAG 2.1 AA
+- Cloud & Infra: AWS (ECS, Lambda, API Gateway, EC2, S3), Docker, Kubernetes, Terraform, Vercel, GitHub Actions, CI/CD, canary & A/B deploys
+- Data: PostgreSQL, MySQL (PlanetScale), Prisma, Redis, MongoDB, DynamoDB, Elasticsearch, pgvector
+- Observability: OpenTelemetry, Splunk, Sentry, Rollbar, Catchpoint, Looker, Kibana, distributed tracing, runbooks
+- Testing: Jest, Vitest, Playwright, Cypress, React Testing Library
+
+## Experience
+- Senior Full-Stack Engineer — Next Level Sports (May 2025–Present, Remote/NY): multi-agent AI support (60% auto-resolve), payroll platform (10K+ coaches, ~$1M/yr saved), PCI Stripe checkout (~$150K/yr saved), idempotent webhook backend on AWS Lambda/Kafka/DLQ.
+- Senior Software Engineer — PayPal (Jan 2021–Jan 2024, Bangalore): Java/Spring Boot + Node.js for Home/Marketing/Onboarding at 200M+ req/day, 99.99% uptime; 4-tier caching SDK (99% hit ratio); OpenTelemetry sidecar adopted across 3 teams; global nav 500ms→250ms across 60+ countries; DDoS detection.
+- Senior Product Engineer — HARMAN International (Nov 2019–Jan 2021, Bangalore): telemetry ingestion pipelines, observability from scratch, real-time D3.js/Three.js dashboards.
+- Frontend Engineer — Recrosoft Technologies (Aug 2018–Nov 2019, Bangalore): offline-first PWAs (Swiggy, Goldman Sachs), Node.js microservices, config-driven UI platform.
+- Associate Software Engineer — Danske Bank (Aug 2016–Aug 2018, Bangalore): secure Java middleware over DB2 mainframes, Guarantees product modernization, R3 blockchain clearance.
+
+## Education
+- M.S. Computer Science — Syracuse University (Jan 2024–May 2025)
+
+## Selected case studies
+- /work/multi-agent-ai-support — Evals-first multi-agent support platform; 60% auto-resolve, 0 bad auto-sends, ~$55/day.
+- /work/paypal-home-at-scale — 40K+ pages, 200+ countries, 200M req/day; 4-tier caching, SSR, Core Web Vitals.
+- /work/caching-opentelemetry-sdk — Shared caching + OpenTelemetry SDK (sidecar) adopted by 3 teams; saved 4-5 months per project.
+- /work/pci-checkout — In-house Stripe checkout; 30K+ transactions, near-zero failures, ~$150K/yr saved.
+- /work/timesheet-payroll-platform — 0→1 payroll for 30K+ people; ~$1M/yr saved.
+- /work/idempotent-webhook-backend — Integration layer losing zero events; Lambda, Kafka, DLQ, reconciliation.
+- /work/heyfurnish — Co-founder & builder; live product at heyfurnish.com.
+
+## How I work
+- Measurement before architecture: characterize the problem and build evals/observability before committing to a design.
+- Treat AI-generated code as "alien code" — ships only through review and test gates (CodeRabbit + risk-tiered human review).
+- Bias toward platform leverage: turn repeated work into shared SDKs/sidecars.
