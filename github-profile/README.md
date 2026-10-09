@@ -2,7 +2,7 @@
   This is your GitHub PROFILE README.
   To use it: create a repo named exactly `vineetpanwar` (same as your username),
   make it public, and put this file as README.md at its root.
-  GitHub will render it on https://github.com/vineetpanwar
+  GitHub renders it on https://github.com/vineetpanwar
 -->
 
 <h1 align="center">Hi, I'm Vineet 👋</h1>
@@ -20,26 +20,42 @@
 
 ---
 
+> ## 🏦 Proven at PayPal scale
+> At **PayPal** I owned Java & Node.js services for **Home, Marketing & Onboarding — 200M+ requests/day at 99.99% uptime**. I built a **4-tier caching SDK** (99% hit ratio, adopted across 3 teams), cut global-nav load time **50% to 250ms** across **60+ countries**, and caught a **DDoS disguised as a deploy regression** before it hit customers.
+
 ### 🚀 What I do
 
 I build **scalable distributed backends, data-driven UIs, and multi-agent AI systems**. 8+ years across Banking, FinTech, AI platforms, and Sports Tech — from **PayPal at 200M requests/day** to **multi-agent AI support that auto-resolves 60% of tickets**. I lead with measurement: evals and observability *before* architecture.
 
-```text
-Now        →  Senior Full-Stack Engineer @ Next Level Sports (AI, payments, payroll)
-Before     →  Senior Software Engineer @ PayPal (200M req/day, 99.99% uptime)
-Also       →  Co-founder @ HeyFurnish
-Based in   →  New York, NY
+```typescript
+const vineet: SeniorEngineer = {
+  role: "Senior Full-Stack + AI Engineer",
+  now: "Next Level Sports — AI platform, payments, payroll",
+  shippedAt: ["PayPal (200M req/day)", "Danske Bank", "HARMAN", "Goldman Sachs"],
+  founded: "HeyFurnish",
+  code: ["TypeScript", "Java", "Python", "SQL"],
+  stack: {
+    backend:  ["Node.js", "Spring Boot", "tRPC", "GraphQL", "Kafka", "Stripe"],
+    frontend: ["React 18", "Next.js", "React Native", "Tailwind"],
+    cloud:    ["AWS", "Docker", "Kubernetes", "Terraform", "Vercel"],
+    data:     ["PostgreSQL", "MySQL", "Prisma", "Redis", "DynamoDB", "pgvector"],
+    ai:       ["Multi-agent (Mastra)", "LLM-as-judge evals", "RAG", "guardrails", "Claude Code"],
+  },
+  principle: "Characterize the problem and build the evals before choosing an architecture.",
+  rule: "Treat AI-generated code as alien code — it ships only through review + test gates.",
+};
 ```
 
 ### 📊 Impact at a glance
 
 | Metric | Where |
 |---|---|
-| **200M+** requests/day @ 99.99% uptime | PayPal Home / Marketing / Onboarding |
+| **200M+** requests/day @ 99.99% uptime | 🏦 **PayPal** — Home / Marketing / Onboarding |
+| **99%** cache-hit · **99.9999%** availability | 🏦 **PayPal** — 4-tier caching SDK, 3 teams |
+| **500ms → 250ms** global-nav load, 60+ countries | 🏦 **PayPal** — API + front end |
 | **60%** of support tickets auto-resolved | Multi-agent AI platform (Mastra + Claude) |
 | **~$1M/year** saved | In-house payroll platform (10K+ coaches) |
 | **~$150K/year** saved | In-house PCI Stripe checkout (30K+ txns) |
-| **99%** cache-hit · **99.9999%** availability | 4-tier caching SDK, adopted by 3 teams |
 | **55K+** users | Cross-platform sports app (React Native) |
 
 ### 🧠 How I work with AI
@@ -64,7 +80,7 @@ I treat AI-generated code as **alien code** — it ships only through review and
 ### 📂 Selected work
 
 - 🤖 **Multi-Agent AI Customer Service** — evals-first, 60% auto-resolve, 0 bad auto-sends → [case study](https://vineetpanwar.vercel.app/work/multi-agent-ai-support)
-- ⚡ **PayPal Home at 200M req/day** — 4-tier caching, SSR, Core Web Vitals → [case study](https://vineetpanwar.vercel.app/work/paypal-home-at-scale)
+- 🏦 **PayPal Home at 200M req/day** — 4-tier caching, SSR, Core Web Vitals → [case study](https://vineetpanwar.vercel.app/work/paypal-home-at-scale)
 - 🧰 **Caching + OpenTelemetry SDK (sidecar)** — adopted by 3 teams, saved 4–5 months/project → [case study](https://vineetpanwar.vercel.app/work/caching-opentelemetry-sdk)
 - 💳 **PCI-Conscious Checkout** — Stripe, idempotency, ~$150K/yr saved → [case study](https://vineetpanwar.vercel.app/work/pci-checkout)
 
@@ -75,9 +91,16 @@ I treat AI-generated code as **alien code** — it ships only through review and
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineetpanwar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0d14&title_color=4cc9f0" alt="Top languages" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vineetpanwar&theme=tokyonight&hide_border=true&background=0a0d14&ring=4cc9f0&fire=5eead4&currStreakLabel=4cc9f0" alt="GitHub streak" />
+</p>
+
 ---
 
+### 📫 Want to talk?
+
+Open to **Senior / Staff Full-Stack and AI-forward roles**. Grab a slot and tell me what you're building:
+
 <p align="center">
-  <i>Open to Senior / Staff Full-Stack and AI-forward roles.</i><br/>
   <a href="https://calendly.com/vineetpanwar027/30min"><b>📅 Book a 30-min call →</b></a>
 </p>
