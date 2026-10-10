@@ -1,5 +1,6 @@
 import { site } from "@/content/site";
 import { Reveal } from "@/components/ui/Reveal";
+import { CalendlyEmbed } from "@/components/CalendlyEmbed";
 import { CalendarIcon, MailIcon, GithubIcon, LinkedinIcon, ArrowIcon } from "@/components/ui/icons";
 
 export function Contact() {
@@ -70,6 +71,11 @@ export function Contact() {
               heyfurnish.com ↗
             </a>
           </div>
+
+          <p className="mt-16 font-mono text-xs uppercase tracking-[0.2em] text-slate-500">
+            Pick a time that works for you
+          </p>
+          <CalendlyEmbed />
         </Reveal>
       </div>
     </section>

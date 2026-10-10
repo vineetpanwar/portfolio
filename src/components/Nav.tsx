@@ -10,6 +10,7 @@ const links = [
   { href: "#skills", label: "Skills" },
   { href: "#testimonials", label: "Testimonials" },
   { href: "#judgment", label: "How I think" },
+  { href: "#contact", label: "Book a call" },
 ];
 
 export function Nav() {
